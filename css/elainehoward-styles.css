@@ -1,0 +1,247 @@
+/* styles.css */
+/*
+.svgSection
+{
+    height: 384px;
+    width:100%;
+}
+*/
+ul.nav li a:link,
+ul.nav li a:visited,
+ul.nav li a:hover,
+ul.nav li a:active
+{
+    color:#94c3ea !important;
+}
+/*
+ul.nav li a:visited
+{
+    color:#ffc921 !important;
+}
+*/
+ul.nav li a:hover
+{
+    color:#ffdb6c !important;
+}
+/*
+ul.nav li a:active
+{
+    color:#ffe69a !important;
+}
+*/
+
+body#index li[data-page='index'] a
+{
+    color:white !important;
+}
+body#music li[data-page='music'] a
+{
+    color:white !important;
+}
+body#resume li[data-page='resume'] a
+{
+    color:white !important;
+}
+body#work li[data-page='work'] a
+{
+    color:white !important;
+}
+body#images li[data-page='images'] a
+{
+    color:white !important;
+}
+body#thoughts li[data-page='thoughts'] a
+{
+    color:white !important;
+}
+body#links li[data-page='links'] a
+{
+    color:white !important;
+}
+body#contact li[data-page='contact'] a
+{
+    color:white !important;
+}
+body#about li[data-page='about'] a
+{
+    color:white !important;
+}
+
+body a.printer
+{
+    display:none;
+}
+
+body#thoughts a.printer,
+body#resume a.printer
+{
+    display:inline;
+}
+
+body#id img.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+body#id p.center
+{
+    text-align: center;
+}
+
+.node 
+{
+    cursor: grab;
+    stroke: blue;
+    stroke-width: 1px;
+}
+
+.link 
+{
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.label
+{
+    cursor: pointer;
+}
+
+.container-fluid, .navbar-collapse 
+{
+    background: #0a5a9c; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #0a5a9c , #65a5da); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #0a5a9c, #65a5da); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #0a5a9c, #65a5da); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #0a5a9c , #65a5da); /* Standard syntax */
+}
+
+html,body
+{
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, white, #eee); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #eee); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #eee); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white, #eee); /* Standard syntax */
+
+    background-attachment: fixed;
+}
+
+body
+{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+span.glyphicon
+{
+    padding-left:0.5em;
+    font-size:1.5em;
+}
+
+hr 
+{
+    border-top: 1px dotted #000000 !important;
+    margin-bottom:5px !important; 
+    margin-top:5px !important;
+}
+
+*
+{
+    border-style:none !important;
+}
+
+#work .carousel-indicators li
+{
+    background-color:#1916a9;    
+}
+#work .carousel-indicators .active
+{
+    background-color:#FFD59A;    
+}
+#work .carousel-caption
+{
+    color:#1916a9;    
+}
+#work .glyphicon-chevron-left,
+#work .glyphicon-chevron-right
+{
+    color:#ffa121;    
+}
+/*
+#work ul.nav-pills li a
+{
+    font-weight: normal;
+    background-color: #eee !important;
+    outline: none;
+}
+#work ul.nav-pills li.hover a
+{
+    font-weight: normal;
+    background-color: #999 !important;
+    outline: none;
+}
+*/
+#work ul.nav-pills li.active a
+{
+    font-weight: bold;
+    background-color:#2376bb !important;
+    outline: none;
+    /*
+    background: #2376bb;
+    background: -webkit-linear-gradient(#2376bb, white);
+    background: -o-linear-gradient(#2376bb, white);
+    background: -moz-linear-gradient(#2376bb, white);
+    background: linear-gradient(#2376bb, white);
+    */
+}
+
+#work .carousel-control.left,
+#work .carousel-control.right
+{
+    background-image:none;
+}
+
+/*
+#work .tab-content
+{
+    border:1px solid #2376bb !important;
+}
+*/
+
+#work section
+{
+    margin:0 2em 0 2em;
+}
+
+
+/* print media type */
+/*
+@media print
+{
+    body 
+    { 
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 14px;
+        color: black;
+        background: white none;
+    }
+
+    body a.printer
+    {
+        display:none;
+    }
+
+    body#thoughts a.printer,
+    body#resume a.printer
+    {
+        display:inline;
+    }
+
+    .noprint
+    {
+        display:none;
+    }
+}
+*/
